@@ -11,5 +11,5 @@ allprojects {
  Step 2.Add the dependency
  
  dependencies {        
-	implementation 'com.github.a994335223:DynamicAuthorization:Tag'
+	 implementation 'com.github.a994335223:DynamicAuthorization:v1.0'
 	}
