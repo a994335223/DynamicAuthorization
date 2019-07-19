@@ -1,6 +1,7 @@
 ### DynamicAuthorization Android 动态授权
-##集成：
-####1. Add it in your root build.gradle at the end of repositories
+集成：
+
+1. Add it in your root build.gradle at the end of repositories
 ```javascript
 		allprojects {
 			repositories {
@@ -9,13 +10,16 @@
 			}
 		}
 ```
-####2. Add the dependency
+
+2. Add the dependency
 ```javascript
 		dependencies {
 	  		implementation 'com.github.a994335223:DynamicAuthorization:v1.0'
 		}
 ```
-###使用方法：
+
+使用方法：
+
 单条必须赋予权限
 ```javascript
    PermissionsUtil.requestPermission(getApplication(),true, new PermissionListener() {
